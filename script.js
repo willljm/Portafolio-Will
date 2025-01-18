@@ -31,13 +31,9 @@ window.addEventListener('scroll', () => {
 });
 
 function handleScrollAnimations() {
-
     const techElements = document.querySelectorAll('.contenedor-tecnologias div');
-    
     const projectCards = document.querySelectorAll('.proyecto-card');
-    
     const aboutElements = document.querySelectorAll('.sobre-mi-container > div');
-    
     const elements = [...techElements, ...projectCards, ...aboutElements];
     
     elements.forEach(element => {
@@ -51,5 +47,4 @@ function handleScrollAnimations() {
 }
 
 window.addEventListener('scroll', handleScrollAnimations);
-
 document.addEventListener('DOMContentLoaded', handleScrollAnimations);
