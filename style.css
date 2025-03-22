@@ -67,6 +67,46 @@ nav {
     border-radius: 15px;
     transition: all 0.3s ease;
 }
+.experiencia-item {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border-left: 3px solid rgb(77, 163, 239);
+    margin-bottom: 1.5rem;
+}
+
+.experiencia-item .fecha {
+    display: inline-block;
+    color: rgb(77, 163, 239);
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.8rem;
+    background: rgba(77, 163, 239, 0.1);
+    border-radius: 15px;
+}
+
+.experiencia-lista {
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.experiencia-lista li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.experiencia-lista li::before {
+    content: '•';
+    color: rgb(77, 163, 239);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
 
 nav.scrolled {
     top: 0.8rem;
